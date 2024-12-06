@@ -1,4 +1,4 @@
-package com.adrtc.RegistryHub.service;
+package com.adrtc.RegistryHub.repository;
 
 import com.adrtc.RegistryHub.domain.RegisterPerson;
 import org.springframework.data.mongodb.repository.MongoRepository;
