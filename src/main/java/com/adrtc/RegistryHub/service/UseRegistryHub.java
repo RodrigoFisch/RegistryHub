@@ -22,7 +22,7 @@ public class UseRegistryHub {
     @Autowired
     private ModelMapper mapper;
 
-    public RegisterOut creat(RegisterIn registerIn){
+    public RegisterOut create(RegisterIn registerIn){
         RegisterPerson registerPerson = mapper.map(registerIn, RegisterPerson.class);
         personRepository.save(registerPerson);
         RegisterOut registerOut = mapper.map(registerPerson, RegisterOut.class);
